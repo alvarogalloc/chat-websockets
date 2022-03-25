@@ -1,0 +1,20 @@
+{
+  "name": "webchat-server",
+  "version": "1.0.0",
+  "description": "My first websocket server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Alvaro Gallo",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "socket.io": "^4.4.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
+}
